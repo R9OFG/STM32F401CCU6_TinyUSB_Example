@@ -1,0 +1,28 @@
+# Build directories
+Debug/
+Release/
+*/Debug/
+*/Release/
+
+# Build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.srec
+
+# Eclipse/STM32CubeIDE specific
+*.launch
+*.tmp
+*.log
+*.lock
+.settings/org.eclipse.core.resources.prefs
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Compiled objects
+*.o
+*.d
